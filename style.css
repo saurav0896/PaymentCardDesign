@@ -1,0 +1,101 @@
+body{
+    width: 1440px;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    width: 360px;
+    margin: 10% auto;
+    box-shadow: 10px 15px 15px #D6E1FF;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.banner_img {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+.card_body{
+    background-color: #fff;
+    padding:35px;
+}
+.card_title{
+    font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px;
+}
+.card_content{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: gray;
+    padding: 0px 22px;
+}
+
+.prize_box{
+    margin: 0 auto;
+    padding: 15px 20px;
+    width: 250px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    border-radius: 8px;
+}
+.music_icon {
+    width: 40px;
+    height: 40px;
+}
+.prize_tag{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: gray;
+    padding: 0px 20px;
+}
+
+.prize_tag > span {
+    font-weight: 700;
+    color: black;
+}
+
+.prize_status {
+    padding-top: 10px;
+}
+.prize_status > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: gray;
+}
+
+.payment_btn {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    padding: 10px 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    width: 290px;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: none;
+    box-shadow: 5px 10px 15px #cecece;
+    
+}
+
+.cancel_btn {
+    text-align: center;
+}
+.cancel_btn > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
